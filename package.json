@@ -1,0 +1,14 @@
+{
+  "name": "@mattb.tech/api-gateway-cloudwatch-role",
+  "version": "1.0.0",
+  "description": "Cloudformation stack to set the cloudwatch role so that API gateway can write logs",
+  "scripts": {
+    "create-stack": "cf-create-stack -s mattb-tech-api-gateway-cloudwatch-role -p mattb.tech-deploy -f template.yaml",
+    "update-stack": "cf-deploy-stack -s mattb-tech-api-gateway-cloudwatch-role -p mattb.tech-deploy -f template.yaml"
+  },
+  "author": "Matt Benton <m@mattb.tech>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@mattb.tech/cloudformation-scripts": "^2.0.0"
+  }
+}
