@@ -1,4 +1,4 @@
-# api-gateway-cloudwatch-role
+# @mattb.tech/api-gateway-cloudwatch-role
 
 ```
 $ npm i @mattb.tech/api-gateway-cloudwatch-role
